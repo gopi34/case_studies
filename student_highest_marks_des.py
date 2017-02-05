@@ -3,6 +3,17 @@
 Spyder Editor
 
 This is a temporary script file.
+
+Input - Randomly generated values for sample size of 32 students.
+Output - Student data file, Mark_data file and Sorted mark file are written during the execution of the program 
+and no output is displayed
+
+Summary:
+This program is to sort the highest mark of a student in his tenth, twelth, ug academics. Sample size of 32 randomly generated.
+Student data list contains sub list for 32 students, Each sub list zero index would be students name, 
+first index would be unique RRN number prefixed with RRN+(4 integer digits), second index would be his tenth, 
+third is twelth and fourth index is his ug marks.
+
 """
 import random
 import string
