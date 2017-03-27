@@ -21,7 +21,7 @@ public:
         same_mms = 300;
         other_mms = 400;
         total = sc * same_call + oc * other_call + ss * same_sms + os * other_sms + sm * same_mms + om * other_mms;
-        cout << " \n Total bill for your mobile is "<< total << "\n \n";
+        cout << " \n Total bill for your mobile is "<< total/10 << "\n \n";
         return total;
     }
 };
@@ -29,7 +29,7 @@ public:
 int main()
 {
    billTotal bill;
-   cout << "Hello World" << endl; 
+   cout << "\n" << endl; 
    bill.getBill(10,20,15,25,20,30);
    return 0;
 }
